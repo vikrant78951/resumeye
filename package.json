@@ -7,7 +7,7 @@
     "build": "next build",
     "start": "next start",
     "lint:fix": "next lint",
-    "vitest:test": "vitest",
+    "vitest:test": "vitest run",
     "playwright:test": "npx playwright test",
     "playwright:report" : "npx playwright show-report",
     "prettier:format": "prettier --write \"**/*.{ts,tsx,js,jsx,md,mdx,css,yaml,yml}\"",
