@@ -6,5 +6,6 @@ export default defineConfig({
   plugins: [tsconfigPaths(), react()],
   test: {
     environment: 'jsdom',
+    exclude: ['__playwright_test__','node_modules'],
   },
 })
